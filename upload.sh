@@ -5,8 +5,7 @@ if [[ "$#" == '0' ]]; then
     echo -e 'ERROR: No File Specified!' && exit 1
 fi
 
-# Store the file path, preserving spaces
-# $1 is the first command-line argument
+# Using FIlE 1 format
 FILE="$1"
 
 # Query GoFile API to find the best server for upload
